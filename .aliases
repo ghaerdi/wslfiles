@@ -1,0 +1,24 @@
+alias sdn="shutdown now"
+
+alias c="clear"
+alias cls="clear"
+
+alias ls="lsd -a -l"
+alias ...="cd ../../"
+alias ....="cd ../../../"
+alias .....="cd ../../../../"
+alias dev="cd /mnt/c/Users/ghaer/Projects"
+alias qtc="cd ~/.config/qtile"
+alias vic="cd ~/.config/nvim"
+
+alias grep="rg"
+
+alias emacs="emacsclient -c -a 'emacs'"
+
+alias visudo="sudo EDITOR=nvim visudo"
+alias cat='bat'
+
+alias mongodb="mongod --port 27017 --dbpath ~/Document/database"
+alias tb="taskbook"
+
+alias clearos="sudo pacman -Scc && sudo rm -rf ~/.cache ~/.xsession-errors ~/.xsession-errors.old ~/.histfile ~/.Xauthority"

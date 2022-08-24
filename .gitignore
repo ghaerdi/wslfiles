@@ -1,0 +1,17 @@
+# Ignore everything
+/*
+!.gitignore
+
+# Except for the files and folders we want to track
+!.xsession
+!.prompt.bash
+!.aliases
+!.exports
+!.zshrc
+!.antigen.zsh
+!README.md
+
+!.config
+.config/*
+!.config/starship
+!.config/neofetch
