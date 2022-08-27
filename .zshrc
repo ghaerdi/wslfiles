@@ -91,6 +91,8 @@ if [ -f ~/.prompt.bash ]; then
 . ~/.prompt.bash
 fi
 
+source /usr/share/nvm/init-nvm.sh
+
 # PROMPT
 SPACESHIP_USER_SHOW="always"
 SPACESHIP_PROMPT_SEPARATE_LINE="false"
